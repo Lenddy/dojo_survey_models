@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Result</title>
+</head>
+<style> 
+    body{
+        background-color: #121212;
+        color: white;
+    }
+</style>
+<body>
+    @model survey_model.Models.info
+    <h1>Coding Dojo Survey</h1>
+    <form action="" method="">
+        <div>
+            <label for="name">Name</label>
+            <p>@Model.Name</p>
+        </div>
+
+            <div>
+                <label for="Dojo Location">Dojo Location:</label>
+                <p>@Model.Location</p>
+            </div>
+                
+            <div>
+                <label for="Favorite Language">Favorite Language:</label>
+                <p>@Model.Language</p>
+            </div>
+            <div>
+            <label for="Comment">Comment:</label>
+            <p>@Model.Comment</p>
+            </div>
+            <a href="/">home</a>
+
+
+    </form>
+</body>
+</html>
