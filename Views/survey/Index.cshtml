@@ -13,35 +13,43 @@
     }
 </style>
 <body>
+    @model survey_model.Models.info 
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
     
     <form action="/result" method="post">
     <div>
-        <label for="Name">Name</label>
-    <input type="text" name="Name" id="">
+        <label asp-for="Name">Name</label>
+    <input type="text"  asp-for="Name" id="">
+        <span asp-validation-for ="Name" ></span>
     </div>
     <div>
-        <label for="location">Location</label>
-    <select name="Location" id="">
+        <label asp-for="Location">Location</label>
+    <select asp-for = "Location" id="">
         <option value="new york">new york</option>
         <option value="seattle">seattle</option>
         <option value="chicago">chicago</option>
         <option value="california">california</option>
     </select>
+            <span asp-validation-for ="Location" ></span>
     </div>
     <div>
-        <label for="language">Language</label>
-        <select name="language" id="">
+        <label asp-for="Language">Language</label>
+        <select asp-for="Language" id="">
         <option value="python">Python</option>
         <option value="c#">c#</option>
         <option value="java">java</option>
         <option value="javascript">javascript</option>
     </select>
+                <span asp-validation-for ="Language" ></span>
     </div>
     <div>
-        <label for="comment">comment(optional)</label>
+        <label asp-for="Comment">comment(optional)</label>
     </div>
     <div>
-            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            <textarea asp-for="Comment" id="" cols="30" rows="10"></textarea>
+                    <span asp-validation-for ="Comment" ></span>
     </div>
     <input type="submit">
 
