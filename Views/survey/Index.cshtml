@@ -13,15 +13,19 @@
     }
 </style>
 <body>
+    @*! you are linking to you r model directly  *@
     @model survey_model.Models.info 
+    @*! helps you with the asp tag  and does the logit for it   *@
     @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 
     
     <form action="/result" method="post">
     <div>
-        <label asp-for="Name">Name</label>
+@** name="" chage to asp-for="" tag helper does the loggic for you   *@
+    <label asp-for="Name">Name</label>
     <input type="text"  asp-for="Name" id="">
+    @*<span asp-validation-for ="Name" ></span>     show the validation message if input does not met requirements*@
         <span asp-validation-for ="Name" ></span>
     </div>
     <div>

@@ -8,17 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dojo_survey_models
 build_property.RootNamespace = dojo_survey_models
-build_property.ProjectDir = C:\Users\leme2\OneDrive\Desktop\codingDojoWork\dojo_survey_models\
+build_property.ProjectDir = c:\Users\leme2\OneDrive\Desktop\codingDojoWork\dojo_survey_models\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\leme2\OneDrive\Desktop\codingDojoWork\dojo_survey_models
+build_property.MSBuildProjectDirectory = c:\Users\leme2\OneDrive\Desktop\codingDojoWork\dojo_survey_models
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/leme2/OneDrive/Desktop/codingDojoWork/dojo_survey_models/Views/survey/Index.cshtml]
+[c:/Users/leme2/OneDrive/Desktop/codingDojoWork/dojo_survey_models/Views/survey/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3VydmV5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leme2/OneDrive/Desktop/codingDojoWork/dojo_survey_models/Views/survey/result.cshtml]
+[c:/Users/leme2/OneDrive/Desktop/codingDojoWork/dojo_survey_models/Views/survey/result.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3VydmV5XHJlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
